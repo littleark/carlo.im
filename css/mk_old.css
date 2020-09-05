@@ -1,0 +1,248 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; border:none !important;}
+/* close commented backslash hack */
+
+html,body {
+	height: 100%;
+	min-height:500px;
+	font-family: 'Open Sans', sans-serif;
+	color:#333;
+}
+a {
+	color:#333;
+	text-decoration: none;
+}
+a:hover {
+	color:#ff005d;
+}
+#bg {
+	width:100%;
+	height:100%;
+	background-color:#fff;
+	position: relative;
+	min-width:960px;
+}
+#wrapper {
+	min-width:960px;
+	margin:0 auto;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height:500px;
+}
+#projects {
+	width: 100%;
+	max-width: 1010px;
+	margin: 0 auto 100px;
+}
+h1 {
+	height:14%;
+	line-height: 90px;
+	min-height: 90px;
+	text-align: center;
+	margin:0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size:30px;
+	
+	text-transform: uppercase;
+	
+	margin-bottom:2%;
+	z-index: 99999999;
+	position: relative;
+}
+h1 span {
+	font-weight: 900;
+	font-size:29px;
+}
+#projects ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#projects ul li {
+	float:left;
+	width:30%;
+	max-width: 300px;
+	height:0;
+	padding-bottom: 260px;
+	margin:0 1% 60px;
+	position: relative;
+	border:1px solid #999;
+
+	-webkit-box-shadow:  0px 0px 20px 2px rgba(0, 0, 0, 0.2);
+	box-shadow:  0px 0px 20px 2px rgba(0, 0, 0, 0.2);
+
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-ms-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+
+	opacity: 1;
+
+	min-width: 230px;
+}
+#projects ul li a{
+	display: block;
+	position: absolute;
+	vertical-align: baseline;
+	width: 100%;
+	height: 100%;
+}
+#projects ul:hover li {
+	opacity: 0.75;
+}
+#projects ul li:hover {
+	opacity: 1;
+}
+#projects ul li.githut {
+	background:#fff url(../img/projects/githut.png) center center no-repeat;
+	background-size: 300px 300px;
+}
+#projects ul li.humancost {
+	background:#fff url(../img/projects/humancost.png) center center no-repeat;
+}
+#projects ul li.sorting {
+	background:#fff url(../img/projects/sorting.png) center center no-repeat;
+}
+#projects ul li.soldiaipartiti {
+	background:#fff url(../img/projects/soldiaipartiti.png) center center no-repeat;
+}
+#projects ul li.exports {
+	background:#fff url(../img/projects/exports.png) center center no-repeat;
+}
+#projects ul li.bolides {
+	background:#fff url(../img/projects/bolides.png) center center no-repeat;
+}
+#projects ul li.seaof {
+	background:#fff url(../img/projects/seaof.png) center center no-repeat;
+}
+#projects ul li.worldshapin {
+	background:#fff url(../img/projects/worldshapin.png) center center no-repeat;
+}
+#projects ul li.thatsedu {
+	background:#fff url(../img/projects/thatsedu.png) center center no-repeat;
+}
+#projects ul li.awot {
+	background:#fff url(../img/projects/aworldoftweets.png) center center no-repeat;
+}
+#projects ul li.peoplemovin {
+	background:#fff url(../img/projects/peoplemovin.png) center center no-repeat;
+}
+#projects ul li a {
+	
+}
+#projects ul li a h3{
+	margin:0;
+	padding:0;
+	position: absolute;
+	bottom:0;
+
+	font-family: 'Raleway', sans-serif;
+	/*text-shadow: 0px 0px 1px #333;*/
+
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: -25px;
+}
+#footer {
+	min-height:50px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+	padding-top:15px;
+	border-top:3px solid #ccc;
+}
+#footer h2 {
+	font-size: 10px;
+	text-align: center;
+	display: block;
+	margin:0 auto;
+	font-weight: normal;
+}
+ul#nav  {
+	display: block;
+	list-style: none;
+	bottom:0;
+	color:#333;
+	margin: 0 auto;
+	padding: 0;
+	width:210px;
+	overflow: visible;
+}
+ul#nav li {
+	float:left;
+	width:70px;
+	text-align: center;
+}
+#footer .contents {
+	position: relative;
+	
+	color:#333;
+	
+	opacity: 0;
+
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-ms-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+
+	display: none;
+}
+#footer .contents p {
+	display: block;
+	position: relative;
+	margin:0;
+	padding:0 1%;
+	font-size:22px;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 300;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+#footer .contents p a {
+	color:#108bc7;
+}
+#footer .contents p a:hover {
+	color:#ff005d;
+}
+#footer .contents p a span {
+	text-transform: lowercase;
+}
+#footer .contents p a.close {
+	color:#333;
+	background-color: #ddd;
+	text-transform: lowercase;
+	padding:2px 5px;
+}
+#cbg {
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom: 0;
+	width:100%;
+	height:100%;
+	z-index: 0;
+	
+}
+canvas {
+}
