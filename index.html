@@ -1,274 +1,532 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>I'm Carlo - carlo zapponi</title>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@100;300;400;900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/mk.css">
-</head>
-<body>
-	<div id="bg">
-		<div id="cbg"><canvas id="canvas"></canvas></div>
-		<h1>I'm <span>Carlo</span></h1>
-		<div id="wrapper" class="clearfix">
-			<div id="footer">
-				<div id="ac" class="contents">
-					<p><b>Carlo Zapponi</b> creates <b>Data Visualizations</b> in the AI Analytics team at Cisco. Formerly at <a href="http://j.mp/carlozap" title="my projects at the guardian" target="_blank">The Guardian</a>, Microsoft/Nokia and frog design.
-					In his free time he co-authors <a href="https://visualize.news" title="Visualize News" target="_blank">Visualize News</a> and <a href="https://futbolismo.it" title="Futbolismo.it" target="_blank">Fútbolismo</a>. He's passionate about everything that mixes <b>creativity + data + people</b>.</p>
-					<p>This page is the gate to some of his <b>projects</b>.</p>
-					<p class="d-o">Feel free to contact him for any <b>fun idea</b></p>
-					<p class="d-o">
-						<br/>
-						<br/>
-						<a id="cl_a" href="#about" class="close">now hide this</a>
-					</p>
-				</div>
-				<div id="cc" class="contents"><p>
-					twitter: <a href="http://twitter.com/littleark" title="follow me on twitter" target="_blank"><span>@littleark</span></a>
-					<br/>
-					github: <a href="https://github.com/littleark" title="projects on github" target="_blank"><span>my repos</span></a>
-					<br/>
-					the guardian: <a href="http://j.mp/carlozap" title="my projects at the guardian" target="_blank"><span>projects at the guardian</span></a>
-					<br/>
-					linkedin: <a href="http://it.linkedin.com/in/littleark" title="follow me on linkedin" target="_blank"><span>my profile</span></a>
-					<br/>
-					pinterest: <a href="http://www.pinterest.com/carlozap/" title="follow me on pinterest" target="_blank"><span>my pins</span></a>
-					<br/>
-					email: <a href="mailto:me@carlo.im" title="mail me"><span>me[at]carlo.im</span></a>
-					<br/>
-					<p class="d-o">
-						<br/>
-						<br/>
-						<a id="cl_c" href="#about" class="close">now hide this</a>
-					</p>
-				</div>
-				<ul id="nav" class="clearfix">
-					<li><a id="a" href="#about">about</a></li>
-					<!--<li><a href="blog/" title="my blog, opens in a new window" target=="_blank">blog</a></li>-->
-					<li><a id="c" href="#contacts">contacts</a></li>
-				</ul>
-				<h2>&copy; Carlo Zapponi</h2>
-			</div>
-			<div id="projects" class="clearfix">
-				<ul class="clearfix">
-					<li class="covid19"><a href="https://coronavirus.visualize.news/" target="_blank"><h3>Corona Virus in Italy</h3></a></li>
-					<li class="loksabha"><a href="https://india.visualize.news" target="_blank"><h3>Indian General Elections 2019</h3></a></li>
-					<li class="futbolismo-legends iib"><a href="https://futbolismo.it/legends-one-club-men-and-journeymen" target="_blank"><h3>Futbolismo</h3></a></li>
-					<li class="facciafaccia-elezioni"><a href="https://facciafaccia.elezioni.io" target="_blank"><h3>Faccia a Faccia con le elezioni</h3></a></li>
-					<li class="brexit guardian"><a href="https://www.theguardian.com/uk-news/ng-interactive/2017/feb/20/how-difficult-and-how-costly-is-a-hard-brexit-leaving-eu" target="_blank"><h3>The cost of brexit</h3></a></li>
-					<li class="presidential-debate guardian"><a href="https://www.theguardian.com/us-news/ng-interactive/2016/oct/20/final-presidential-debate-clinton-trump-interactive" target="_blank"><h3>US Presidential Debate</h3></a></li>
-					<li class="food-hygiene guardian"><a href="https://www.theguardian.com/world/2016/sep/23/revealed-uk-takeaways-fail-food-hygiene-tests-restaurants-takeaways" target="_blank"><h3>Food Hygiene UK</h3></a></li>
-					<li class="rio200m guardian"><a href="https://www.theguardian.com/sport/ng-interactive/2016/aug/19/how-usain-bolt-won-his-third-consecutive-olympic-gold-in-the-200m" target="_blank"><h3>Olympics 200m Final</h3></a></li>
-					<li class="rio-track guardian"><a href="http://www.theguardian.com/sport/ng-interactive/2016/aug/13/how-britain-won-gold-and-set-a-new-world-record-in-olympics-team-pursuit" target="_blank"><h3>Olympics Team Pursuit</h3></a></li>
-					<li class="rio-swim guardian"><a href="http://www.theguardian.com/sport/ng-interactive/2016/aug/08/how-katie-ledecky-obliterated-her-own-world-record-in-the-400m-freestyle" target="_blank"><h3>Olympics 400m Freestyle</h3></a></li>
-					<li class="air-pollution guardian"><a href="https://www.theguardian.com/environment/2017/apr/04/thousands-of-british-children-exposed-to-illegal-levels-of-air-pollution" target="_blank"><h3>Air pollution UK</h3></a></li>
-					<li class="global-warming guardian"><a href="https://www.theguardian.com/environment/ng-interactive/2017/jan/19/understand-global-warming-climate-change-quiz" target="_blank"><h3>Global warming quiz</h3></a></li>
-					<li class="leicester guardian"><a href="https://www.theguardian.com/football/2016/may/02/how-leicester-citys-triumph-compares-with-other-title-winners" target="_blank"><h3>Leicester City Triumph</h3></a></li>
-					<li class="scotland guardian"><a href="https://www.theguardian.com/politics/2016/may/06/holyrood-elections-see-rise-of-team-ruth-and-demise-of-labour-vision" target="_blank"><h3>A sankey map of Scotland</h3></a></li>
-					<li class="generations guardian"><a href="https://www.theguardian.com/world/ng-interactive/2016/mar/07/whos-winning-find-out-how-your-income-compares-with-every-other-generation" target="_blank"><h3>Generations compared</h3></a></li>
-					<li class="perception-gap guardian"><a href="https://www.theguardian.com/society/ng-interactive/2016/dec/14/the-perception-gap-how-well-do-you-know-your-country-take-our-quiz" target="_blank"><h3>The perception gap</h3></a></li>
-					<li class="china guardian"><a href="https://www.theguardian.com/world/ng-interactive/2015/aug/26/china-economic-slowdown-world-imports" target="_blank"><h3>China's Import</h3></a></li>
-					<li class="rugby guardian"><a href="https://www.theguardian.com/sport/ng-interactive/2015/nov/02/rugby-world-cup-in-charts-every-minute-every-match" target="_blank"><h3>Rugby World Cup 2015</h3></a></li>
-					<li class="ashes guardian"><a href="https://www.theguardian.com/sport/ng-interactive/2015/jul/08/over-time-ashes-history-in-charts" target="_blank"><h3>The Ashes</h3></a></li>
-					<li class="form-a-government guardian"><a href="https://www.theguardian.com/politics/ng-interactive/2015/may/07/election-2015-interactive-coalition-builder" target="_blank"><h3>Coalition builder 2015</h3></a></li>
-					<li class="election-map guardian"><a href="https://www.theguardian.com/politics/ng-interactive/2015/apr/20/election-2015-constituency-map" target="_blank"><h3>UK Election Map</h3></a></li>
-					<li class="polls guardian"><a href="https://www.theguardian.com/politics/ng-interactive/2015/feb/27/guardian-poll-projection" target="_blank"><h3>UK Election Polls</h3></a></li>
-					<li class="githut"><a href="http://githut.info" target="_blank"><h3>GitHut</h3></a></li>
-					<li class="sorting"><a href="http://sorting.in" target="_blank"><h3>SORTING</h3></a></li>
-					<li class="bolides"><a href="https://bolides.carlo.im" target="_blank"><h3>bolides</h3></a></li>
-					<li class="humancost"><a href="http://humancost.carlo.im" target="_blank"><h3>The cost of Human Life</h3></a></li>
-					<li class="soldiaipartiti"><a href="https://makinguse.com/wired/finanziamenti/" target="_blank"><h3>Soldi ai partiti</h3></a></li>
-					<li class="exports"><a href="http://www.clal.it/index.php?section=exportviz" target="_blank"><h3>Exports Spotlights</h3></a></li>
-					<li class="peoplemovin"><a href="http://peoplemov.in" target="_blank" ><h3>peoplemovin</h3></a></li>
-					<li class="thatsedu"><a href="https://makinguse.com/thatsedu" target="_blank"><h3>that's edu</h3></a></li>
-					<li class="awot"><a href="https://www.youtube.com/watch?v=u8WsLwMrwGo" target="_blank"><h3>a world of tweets</h3></a></li>
-					<li class="worldshapin"><a href="http://worldshap.in" target="_blank"><h3>worldshapin</h3></a></li>
-					<li class="seaof"><a href="#" target="_blank" style="pointer-events: none"><h3>sea of tweets</h3></a></li>
-				</ul>
-			</div>
-			<div id="contacts">
-				twitter: <a href="http://twitter.com/littleark" title="follow me on twitter" target="_blank"><span>@littleark</span></a>
-				<br/>
-				the guardian: <a href="http://j.mp/carlozap" title="my projects at the guardian" target="_blank"><span>projects at the guardian</span></a>
-				<br/>
-				github: <a href="https://github.com/littleark" title="projects on github" target="_blank"><span>my repos</span></a>
-				<br/>
-				linkedin: <a href="http://it.linkedin.com/in/littleark" title="follow me on linkedin" target="_blank"><span>my profile</span></a>
-				<br/>
-				pinterest: <a href="http://www.pinterest.com/carlozap/" title="follow me on pinterest" target="_blank"><span>my pins</span></a>
-				<br/>
-				email: <a href="mailto:me@carlo.im" title="mail me"><span>me[at]carlo.im</span></a>
-			</div>
-		</div>
-	</div>
-	<script>
-		function isCanvasSupported() {
-			var elem = document.createElement('canvas');
-			return !!(elem.getContext && elem.getContext('2d'));
-		}
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>I'm Carlo - carlo zapponi</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@100;300;400;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/mk.css" />
+    </head>
 
-		if (isCanvasSupported()){
+    <body>
+        <div id="bg">
+            <div id="cbg"><canvas id="canvas"></canvas></div>
+            <div id="summary">
+                <h1>I'm <span>Carlo</span></h1>
+                <p>
+                    I craft <b>Data Visualizations</b> in the AI Cloud team at
+                    <b>Cisco</b>.<br />
+                    Before that I was part of the Visual Desk at
+                    <a
+                        href="http://j.mp/carlozap"
+                        title="my projects at the guardian"
+                        target="_blank"
+                        ><b>The Guardian</b></a
+                    >, an unprecedented cross-disciplinary experiment in
+                    graphics, interactive and multimedia.<br />
+                    In the past I worked at
+                    <b>Microsoft, Nokia and frog design</b>.<br /><br />
+                    I am the co-author of
+                    <a
+                        href="https://visualize.news"
+                        title="Visualize News"
+                        target="_blank"
+                        >Visualize News</a
+                    >
+                    and
+                    <a
+                        href="https://futbolismo.it"
+                        title="Futbolismo.it"
+                        target="_blank"
+                        >Fútbolismo</a
+                    >.<br /><br />
+                    I am creating
+                    <a
+                        href="https://observablehq.com/collection/@chrt/chrt"
+                        title="chrt in Observable"
+                        target="_blank"
+                        >chrt</a
+                    >
+                    &mdash; a free, open source JavaScript library with the goal
+                    of creating a more spontaneous experience to make charts.<br /><br />
+                    I am a data visualization enthusiast.<br />I love everything
+                    that mixes <b>creativity + data + people</b>.
+                    <br />
+                    <br />
+                    These are some projects I've worked on...
+                </p>
+            </div>
+            <div id="wrapper" class="clearfix">
+                <div id="projects" class="clearfix">
+                    <ul class="clearfix">
+                        <li class="loksabha">
+                            <a
+                                href="https://india.visualize.news"
+                                target="_blank"
+                            >
+                                <h3>Indian General Elections 2019</h3>
+                            </a>
+                        </li>
+                        <li class="futbolismo-legends iib">
+                            <a
+                                href="https://futbolismo.it/legends-one-club-men-and-journeymen"
+                                target="_blank"
+                            >
+                                <h3>Futbolismo</h3>
+                            </a>
+                        </li>
+                        <li class="covid19">
+                            <a
+                                href="https://coronavirus.visualize.news/"
+                                target="_blank"
+                            >
+                                <h3>Corona Virus in Italy</h3>
+                            </a>
+                        </li>
+                        <li class="facciafaccia-elezioni">
+                            <a
+                                href="https://facciafaccia.elezioni.io"
+                                target="_blank"
+                            >
+                                <h3>Faccia a Faccia con le elezioni</h3>
+                            </a>
+                        </li>
+                        <li class="brexit guardian">
+                            <a
+                                href="https://www.theguardian.com/uk-news/ng-interactive/2017/feb/20/how-difficult-and-how-costly-is-a-hard-brexit-leaving-eu"
+                                target="_blank"
+                            >
+                                <h3>The cost of brexit</h3>
+                            </a>
+                        </li>
+                        <li class="presidential-debate guardian">
+                            <a
+                                href="https://www.theguardian.com/us-news/ng-interactive/2016/oct/20/final-presidential-debate-clinton-trump-interactive"
+                                target="_blank"
+                            >
+                                <h3>US Presidential Debate</h3>
+                            </a>
+                        </li>
+                        <li class="food-hygiene guardian">
+                            <a
+                                href="https://www.theguardian.com/world/2016/sep/23/revealed-uk-takeaways-fail-food-hygiene-tests-restaurants-takeaways"
+                                target="_blank"
+                            >
+                                <h3>Food Hygiene UK</h3>
+                            </a>
+                        </li>
+                        <li class="rio200m guardian">
+                            <a
+                                href="https://www.theguardian.com/sport/ng-interactive/2016/aug/19/how-usain-bolt-won-his-third-consecutive-olympic-gold-in-the-200m"
+                                target="_blank"
+                            >
+                                <h3>Olympics 200m Final</h3>
+                            </a>
+                        </li>
+                        <li class="rio-track guardian">
+                            <a
+                                href="http://www.theguardian.com/sport/ng-interactive/2016/aug/13/how-britain-won-gold-and-set-a-new-world-record-in-olympics-team-pursuit"
+                                target="_blank"
+                            >
+                                <h3>Olympics Team Pursuit</h3>
+                            </a>
+                        </li>
+                        <li class="rio-swim guardian">
+                            <a
+                                href="http://www.theguardian.com/sport/ng-interactive/2016/aug/08/how-katie-ledecky-obliterated-her-own-world-record-in-the-400m-freestyle"
+                                target="_blank"
+                            >
+                                <h3>Olympics 400m Freestyle</h3>
+                            </a>
+                        </li>
+                        <li class="air-pollution guardian">
+                            <a
+                                href="https://www.theguardian.com/environment/2017/apr/04/thousands-of-british-children-exposed-to-illegal-levels-of-air-pollution"
+                                target="_blank"
+                            >
+                                <h3>Air pollution UK</h3>
+                            </a>
+                        </li>
+                        <li class="global-warming guardian">
+                            <a
+                                href="https://www.theguardian.com/environment/ng-interactive/2017/jan/19/understand-global-warming-climate-change-quiz"
+                                target="_blank"
+                            >
+                                <h3>Global warming quiz</h3>
+                            </a>
+                        </li>
+                        <li class="leicester guardian">
+                            <a
+                                href="https://www.theguardian.com/football/2016/may/02/how-leicester-citys-triumph-compares-with-other-title-winners"
+                                target="_blank"
+                            >
+                                <h3>Leicester City Triumph</h3>
+                            </a>
+                        </li>
+                        <li class="scotland guardian">
+                            <a
+                                href="https://www.theguardian.com/politics/2016/may/06/holyrood-elections-see-rise-of-team-ruth-and-demise-of-labour-vision"
+                                target="_blank"
+                            >
+                                <h3>A sankey map of Scotland</h3>
+                            </a>
+                        </li>
+                        <li class="generations guardian">
+                            <a
+                                href="https://www.theguardian.com/world/ng-interactive/2016/mar/07/whos-winning-find-out-how-your-income-compares-with-every-other-generation"
+                                target="_blank"
+                            >
+                                <h3>Generations compared</h3>
+                            </a>
+                        </li>
+                        <li class="perception-gap guardian">
+                            <a
+                                href="https://www.theguardian.com/society/ng-interactive/2016/dec/14/the-perception-gap-how-well-do-you-know-your-country-take-our-quiz"
+                                target="_blank"
+                            >
+                                <h3>The perception gap</h3>
+                            </a>
+                        </li>
+                        <li class="china guardian">
+                            <a
+                                href="https://www.theguardian.com/world/ng-interactive/2015/aug/26/china-economic-slowdown-world-imports"
+                                target="_blank"
+                            >
+                                <h3>China's Import</h3>
+                            </a>
+                        </li>
+                        <li class="rugby guardian">
+                            <a
+                                href="https://www.theguardian.com/sport/ng-interactive/2015/nov/02/rugby-world-cup-in-charts-every-minute-every-match"
+                                target="_blank"
+                            >
+                                <h3>Rugby World Cup 2015</h3>
+                            </a>
+                        </li>
+                        <li class="ashes guardian">
+                            <a
+                                href="https://www.theguardian.com/sport/ng-interactive/2015/jul/08/over-time-ashes-history-in-charts"
+                                target="_blank"
+                            >
+                                <h3>The Ashes</h3>
+                            </a>
+                        </li>
+                        <li class="form-a-government guardian">
+                            <a
+                                href="https://www.theguardian.com/politics/ng-interactive/2015/may/07/election-2015-interactive-coalition-builder"
+                                target="_blank"
+                            >
+                                <h3>Coalition builder 2015</h3>
+                            </a>
+                        </li>
+                        <li class="election-map guardian">
+                            <a
+                                href="https://www.theguardian.com/politics/ng-interactive/2015/apr/20/election-2015-constituency-map"
+                                target="_blank"
+                            >
+                                <h3>UK Election Map</h3>
+                            </a>
+                        </li>
+                        <li class="polls guardian">
+                            <a
+                                href="https://www.theguardian.com/politics/ng-interactive/2015/feb/27/guardian-poll-projection"
+                                target="_blank"
+                            >
+                                <h3>UK Election Polls</h3>
+                            </a>
+                        </li>
+                        <li class="githut">
+                            <a href="http://githut.info" target="_blank">
+                                <h3>GitHut</h3>
+                            </a>
+                        </li>
+                        <li class="sorting">
+                            <a href="http://sorting.in" target="_blank">
+                                <h3>SORTING</h3>
+                            </a>
+                        </li>
+                        <li class="bolides">
+                            <a href="https://bolides.carlo.im" target="_blank">
+                                <h3>bolides</h3>
+                            </a>
+                        </li>
+                        <li class="humancost">
+                            <a href="http://humancost.carlo.im" target="_blank">
+                                <h3>The cost of Human Life</h3>
+                            </a>
+                        </li>
+                        <li class="soldiaipartiti">
+                            <a
+                                href="https://makinguse.com/wired/finanziamenti/"
+                                target="_blank"
+                            >
+                                <h3>Soldi ai partiti</h3>
+                            </a>
+                        </li>
+                        <li class="exports">
+                            <a
+                                href="http://www.clal.it/index.php?section=exportviz"
+                                target="_blank"
+                            >
+                                <h3>Exports Spotlights</h3>
+                            </a>
+                        </li>
+                        <li class="peoplemovin">
+                            <a href="http://peoplemov.in" target="_blank">
+                                <h3>peoplemovin</h3>
+                            </a>
+                        </li>
+                        <li class="thatsedu">
+                            <a
+                                href="https://makinguse.com/thatsedu"
+                                target="_blank"
+                            >
+                                <h3>that's edu</h3>
+                            </a>
+                        </li>
+                        <li class="awot">
+                            <a
+                                href="https://www.youtube.com/watch?v=u8WsLwMrwGo"
+                                target="_blank"
+                            >
+                                <h3>a world of tweets</h3>
+                            </a>
+                        </li>
+                        <li class="worldshapin">
+                            <a href="http://worldshap.in" target="_blank">
+                                <h3>worldshapin</h3>
+                            </a>
+                        </li>
+                        <li class="seaof">
+                            <a
+                                href="#"
+                                target="_blank"
+                                style="pointer-events: none"
+                            >
+                                <h3>sea of tweets</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="summary" class="clearfix">
+                <p>
+                    You can also find my here:<br /><br />
+                    Github:
+                    <a
+                        href="https://github.com/littleark"
+                        title="projects on github"
+                        target="_blank"
+                        ><span>my repos</span></a
+                    >
+                    <br />
+                    the guardian:
+                    <a
+                        href="http://j.mp/carlozap"
+                        title="my projects at the guardian"
+                        target="_blank"
+                        ><span>projects at the guardian</span></a
+                    >
+                    <br />
+                    linkedin:
+                    <a
+                        href="http://it.linkedin.com/in/littleark"
+                        title="follow me on linkedin"
+                        target="_blank"
+                        ><span>my profile</span></a
+                    >
+                    <br />
+                    X/Twitter:
+                    <a
+                        href="http://twitter.com/littleark"
+                        title="follow me on twitter"
+                        target="_blank"
+                        ><span>@littleark</span></a
+                    >
+                    <br />
+                    email:
+                    <a href="mailto:me@carlo.im" title="mail me"
+                        ><span>me[at]carlo.im</span></a
+                    >
+                    <br />
+                </p>
+            </div>
+        </div>
+        <script>
+            function isCanvasSupported() {
+                var elem = document.createElement("canvas");
+                return !!(elem.getContext && elem.getContext("2d"));
+            }
 
+            if (isCanvasSupported()) {
+                window.requestAnimFrame = (function () {
+                    return (
+                        window.requestAnimationFrame ||
+                        window.webkitRequestAnimationFrame ||
+                        window.mozRequestAnimationFrame ||
+                        window.oRequestAnimationFrame ||
+                        window.msRequestAnimationFrame ||
+                        function (callback) {
+                            window.setTimeout(callback, 1000 / 60);
+                        }
+                    );
+                })();
 
+                var inc = 0.001;
 
-			window.requestAnimFrame = (function(){
-			  return  window.requestAnimationFrame       ||
-			          window.webkitRequestAnimationFrame ||
-			          window.mozRequestAnimationFrame    ||
-			          window.oRequestAnimationFrame      ||
-			          window.msRequestAnimationFrame     ||
-			          function( callback ){
-			            window.setTimeout(callback, 1000 / 60);
-			          };
-			})();
+                var canvas = document.getElementById("canvas"),
+                    ctx = canvas.getContext("2d");
 
-			var inc=0.001;
+                canvas.width = window.innerWidth - 20;
+                //canvas.height=window.innerHeight;
+                canvas.height =
+                    document.getElementById("projects").clientHeight + 90 + 100;
 
-			var canvas=document.getElementById("canvas"),
-				ctx=canvas.getContext("2d");
+                var WIDTH = canvas.width,
+                    HEIGHT = canvas.height;
 
-			canvas.width=window.innerWidth-20;
-			//canvas.height=window.innerHeight;
-			canvas.height=document.getElementById("projects").clientHeight+90+100;
+                var counter = 0,
+                    delta = 0;
 
-			var	WIDTH=canvas.width,
-			   	HEIGHT=canvas.height;
+                var sin = 0;
+                function loop() {
+                    requestAnimFrame(loop);
+                    ctx.save();
+                    ctx.clearRect(0, 0, WIDTH, HEIGHT);
 
-			var counter=0,
-				delta=0;
+                    ctx.strokeStyle = "#fff";
+                    ctx.lineWidth = 1;
 
+                    ctx.translate(WIDTH / 2, HEIGHT / 2);
 
-			var sin=0;
-			function loop() {
-				requestAnimFrame(loop);
-				ctx.save();
-				ctx.clearRect(0,0,WIDTH,HEIGHT);
+                    //ctx.globalCompositeOperation = "lighter";
 
-				ctx.strokeStyle = '#fff';
-				ctx.lineWidth = 1;
+                    for (var i = 0; i < 20; i++) {
+                        sin = Math.sin(counter);
+                        ctx.strokeStyle =
+                            "hsl(" +
+                            (200 - parseInt(delta)) +
+                            "," +
+                            100 +
+                            "%," +
+                            85 +
+                            "%)";
+                        ctx.strokeRect(-WIDTH / 2, -HEIGHT / 2, WIDTH, HEIGHT);
+                        ctx.translate(sin * 100, -sin * 100);
+                        ctx.rotate(sin * 0.5);
+                        ctx.scale(0.95, 0.95);
+                    }
+                    ctx.restore();
 
+                    inc -= inc > 0.001 ? 0.001 : 0;
+                    delta -= delta > 0 ? 1 : 0;
+                    counter += inc;
+                }
 
-				ctx.translate(WIDTH/2,HEIGHT/2)
+                loop();
+            }
+            var bindEvent = function (elem, evt, cb) {
+                //see if the addEventListener function exists on the element
+                if (elem.addEventListener) {
+                    elem.addEventListener(evt, cb, false);
+                    //if addEventListener is not present, see if this is an IE browser
+                } else if (elem.attachEvent) {
+                    //prefix the event type with "on"
+                    elem.attachEvent("on" + evt, function () {
+                        /* use call to simulate addEventListener
+                         * This will make sure the callback gets the element for "this"
+                         * and will ensure the function's first argument is the event object
+                         */
+                        cb.call(event.srcElement, event);
+                    });
+                }
+            };
 
-				//ctx.globalCompositeOperation = "lighter";
+            var anim = setTimeout(function () {}, 1);
 
-				for(var i=0;i<20;i++) {
-					sin=Math.sin(counter);
-					ctx.strokeStyle="hsl("+(200-parseInt(delta))+","+100+"%,"+85+"%)";
-					ctx.strokeRect(-WIDTH/2,-HEIGHT/2,WIDTH,HEIGHT);
-					ctx.translate(sin*100,-sin*100);
-					ctx.rotate(sin*0.5);
-					ctx.scale(0.95,0.95);
-				}
-				ctx.restore();
+            function show(box) {
+                box.style["display"] = "block";
+                box.style["opacity"] = 0;
+                //clearTimeout(anim);
+                anim = setTimeout(function () {
+                    box.style["opacity"] = 1;
+                }, 50);
+            }
+            function hide(box) {
+                box.style["opacity"] = 0;
+                //clearTimeout(anim);
+                setTimeout(function () {
+                    box.style["display"] = "none";
+                }, 500);
+            }
 
-				inc-=inc>0.001?0.001:0;
-				delta-=(delta>0)?1:0;
-				counter += inc;
-			}
+            var contacts = document.getElementById("cc");
+            bindEvent(document.getElementById("c"), "click", function (e) {
+                e.preventDefault();
 
+                inc = 0.05;
+                delta = 200;
 
-			loop();
-		}
-		var bindEvent = function(elem ,evt,cb) {
-		    //see if the addEventListener function exists on the element
-			if ( elem.addEventListener ) {
-				elem.addEventListener(evt,cb,false);
-		    //if addEventListener is not present, see if this is an IE browser
-			} else if ( elem.attachEvent ) {
-		        //prefix the event type with "on"
-				elem.attachEvent('on' + evt, function(){
-		            /* use call to simulate addEventListener
-		             * This will make sure the callback gets the element for "this"
-		             * and will ensure the function's first argument is the event object
-		             */
-		             cb.call(event.srcElement,event);
-				});
-			}
-		};
+                hide(about);
+                if (contacts.style["display"] == "block") {
+                    hide(contacts);
+                } else {
+                    show(contacts);
+                }
+            });
 
-		var anim=setTimeout(function(){},1);
+            var about = document.getElementById("ac");
+            bindEvent(document.getElementById("a"), "click", function (e) {
+                e.preventDefault();
 
-		function show(box) {
-			box.style["display"]="block";
-			box.style["opacity"]=0;
-			//clearTimeout(anim);
-			anim=setTimeout(function(){
-				box.style["opacity"]=1;
-			},50);
-		}
-		function hide(box) {
-			box.style["opacity"]=0;
-			//clearTimeout(anim);
-			setTimeout(function(){
-				box.style["display"]="none";
-			},500);
-		}
+                inc = 0.05;
+                delta = 200;
 
-		var contacts = document.getElementById('cc');
-		bindEvent(document.getElementById('c'),'click',function(e){
+                hide(contacts);
+                if (about.style["display"] == "block") {
+                    hide(about);
+                } else {
+                    show(about);
+                }
+            });
+            bindEvent(document.getElementById("cl_a"), "click", function (e) {
+                e.preventDefault();
 
-			e.preventDefault();
+                inc = 0.05;
+                delta = 200;
 
-		    inc=0.05;
-		    delta=200;
+                hide(about);
+            });
+            bindEvent(document.getElementById("cl_c"), "click", function (e) {
+                e.preventDefault();
 
-		    hide(about);
-		    if(contacts.style["display"]=="block") {
-				hide(contacts);
-		    } else {
-				show(contacts);
-		    }
-		});
+                inc = 0.05;
+                delta = 200;
 
-		var about = document.getElementById('ac');
-		bindEvent(document.getElementById('a'),'click',function(e){
+                hide(contacts);
+            });
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-364839-40"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-			e.preventDefault();
-
-			inc=0.05;
-			delta=200;
-
-			hide(contacts);
-			if(about.style["display"]=="block") {
-				hide(about);
-		    } else {
-				show(about);
-		    }
-		});
-		bindEvent(document.getElementById('cl_a'),'click',function(e){
-
-			e.preventDefault();
-
-			inc=0.05;
-			delta=200;
-
-			hide(about);
-
-		});
-		bindEvent(document.getElementById('cl_c'),'click',function(e){
-
-			e.preventDefault();
-
-			inc=0.05;
-			delta=200;
-
-
-			hide(contacts);
-		});
-
-	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-364839-40"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-364839-40');
-	</script>
-</body>
+            gtag("config", "UA-364839-40");
+        </script>
+    </body>
 </html>
