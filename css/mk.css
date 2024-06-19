@@ -193,6 +193,9 @@ h1 span {
         max-width: 320px;
     }
 }
+#projects ul li.e2024 {
+    background: #fff url(../img/projects/e2024.png) center center no-repeat;
+}
 #projects ul li.covid19 {
     background: #fff url(../img/projects/covid19.png) center center no-repeat;
 }
